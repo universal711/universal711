@@ -1,16 +1,42 @@
-## Hi there 👋
+# Hi 👋
 
-<!--
-**universal711/universal711** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm focused on Data Engineering and building practical end-to-end data platforms.
 
-Here are some ideas to get you started:
+## Tech Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Python
+- SQL
+- PostgreSQL
+- ClickHouse
+- Apache Airflow
+- Apache Superset
+- Docker
+- Git
+
+## Featured Project
+
+### E-commerce Data Platform
+
+An end-to-end batch data engineering platform that simulates a real e-commerce analytics workflow.
+
+**Architecture:**
+
+`Python → PostgreSQL → Airflow → ClickHouse → Superset`
+
+The project includes:
+
+- incremental PostgreSQL → ClickHouse ETL;
+- composite `(updated_at, primary_key)` watermarks;
+- staging, DWH and data mart layers;
+- idempotent data loading;
+- Airflow orchestration and retries;
+- automated data quality checks;
+- controlled failure and recovery testing;
+- business dashboard in Apache Superset;
+- fully containerized infrastructure with Docker Compose.
+
+The repository contains the complete implementation, architecture documentation and screenshots of the running platform.
+
+## Current Focus
+
+Building stronger Data Engineering fundamentals and portfolio projects with production-oriented ETL, orchestration, analytical databases and data quality practices.

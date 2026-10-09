@@ -15,7 +15,7 @@ I'm focused on Data Engineering and building practical end-to-end data platforms
 
 ## Featured Project
 
-### E-commerce Data Platform
+### [E-commerce Data Platform](https://github.com/universal711/ecommerce-data-platform)
 
 An end-to-end batch data engineering platform that simulates a real e-commerce analytics workflow.
 
